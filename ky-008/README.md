@@ -24,4 +24,7 @@ while True:
 
 ## Resultado
 
-<div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/0ed28becb91c4f269a045007220664d8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<a href="https://www.loom.com/share/0ed28becb91c4f269a045007220664d8">
+    <p>Android recording - 19 oct 2022 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0ed28becb91c4f269a045007220664d8-with-play.gif">
+  </a>
