@@ -1,6 +1,7 @@
 # Karla Chavez
 #17210542
 # Micropython
+#HALL MAGNETIC
 
 from machine import Pin  
 import time,utime
