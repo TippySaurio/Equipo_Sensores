@@ -1,3 +1,7 @@
+# Karla Chavez
+#17210542
+# Micropython
+
 from machine import Pin  
 import time,utime
  
