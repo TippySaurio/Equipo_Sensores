@@ -1,16 +1,28 @@
 # Jonathan Mojica
-# Circuitpython
+# Micropython
 
-import Adafruit_DHT
-import time
+# Controlar tiempos y para trabajar con el sensor, respectivamente
+from machine import Pin, I2C
+from time import sleep
+from dht import  DHT11
 
-sensor = Adafruit_DHT.DHT22
+# Declarando que vamos a usar el Pin de nuestro RPI
+pin = Pin(0)
+sensor = DHT11(pin)
 
-pin = 0
-
-humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
-
-if humidity is not None and temperature is not None:
-    print('Temp={0:0.1f}*C  Humidity={1:0.1f}%'.format(temperature, humidity))
-else:
-    print('Failed to get reading. Try again!')
+while True:
+    print('------------------')
+    sensor.measure()
+    temp = sensor.temperature()
+    hum = sensor.humidity()
+    temp_f = temp * (9/5) + 32.0
+    print('Temperature: %3.1f C' %temp)
+    print('Temperature: %3.1f F' %temp_f)
+    print('Humidity: %3.1f %%' %hum)
+    
+    # Este codigo es para imprimir en la pantalla
+    #print("Temperatura: " + str(T) + chr (0xDF) + "C")
+    
+    #print("Humedad: "+ str(H) +"%")
+    sleep(2)     
+    
