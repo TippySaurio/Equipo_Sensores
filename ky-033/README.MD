@@ -1,8 +1,10 @@
+
 # ky-033
 
 ## Code
 
 ```python
+#Cruz Ruiz Luis Angel 19211621
 import machine
 import utime
 import math
