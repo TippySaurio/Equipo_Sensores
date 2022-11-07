@@ -3,7 +3,7 @@
 ## Code
 
 ```python
-
+#Cruz Ruiz Luis Angel 19211621
 from machine import Pin, ADC
 from time import sleep
 
