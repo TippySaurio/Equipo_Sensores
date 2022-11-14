@@ -1,4 +1,4 @@
-![](./ky-015.gif)
+![working](/ky-15/ky-015.gif)
 
 ```
 # Jonathan Mojica
