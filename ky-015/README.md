@@ -1,4 +1,4 @@
-<img src="./ky015.gif" width="40" height="40" />
+![](./ky-015.gif)
 
 ```
 # Jonathan Mojica
