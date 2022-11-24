@@ -25,4 +25,4 @@ while True:
 ## Result
 
 
-![](https://i.imgur.com/isV1ACF.mp4)
+![](https://imgur.com/isV1ACF)
