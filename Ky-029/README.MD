@@ -3,7 +3,7 @@
 ## Code
 ```python
 #Diaz Rodriguez Jorge Said 19211629
-# MicroPhyton
+# MicroPython
 
 from machine import Pin
 import time
