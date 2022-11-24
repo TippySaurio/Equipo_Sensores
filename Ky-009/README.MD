@@ -4,15 +4,20 @@
 ```python
 #Diaz Rodriguez Jorge Said 19211629
 # MicroPhyton
-from machine import Pin, ADC
-from time import sleep
-a0 = ADC(Pin(27))
+
+from machine import Pin
+import time
+
+led_pins = [22,26,27]
+leds = [Pin(led_pins[0],Pin.OUT),Pin(led_pins[1],Pin.OUT),
+        Pin(led_pins[2],Pin.OUT)]
+delay_t = 0.1
 while True:
-    value = a0.read_u16()
-   
-    
-    print("value: " + str(value))
-    print(" ")
+      for led in leds:
+        led.high()
+        time.sleep(delay_t)
+        led.low() 
+        time.sleep(delay_t)
     
 ```
 ## Result
