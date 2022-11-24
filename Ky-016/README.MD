@@ -24,4 +24,5 @@ while True:
 ```
 ## Result
 
- ![](https://imgur.com/a/orFzJ0h)
+
+ ![](https://media0.giphy.com/media/go8UAXKx6GHRJVtUBL/giphy.gif?cid=790b7611e2bd9ea5226e2a9d00d1896d736dedb60477cfd2&rid=giphy.gif&ct=g)
