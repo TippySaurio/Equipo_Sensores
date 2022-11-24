@@ -1,5 +1,4 @@
 # Diaz Rodriguez Jorge Said - 19211629
-# 
 # Micropython
 
 from machine import Pin
