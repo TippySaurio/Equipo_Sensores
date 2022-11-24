@@ -1,4 +1,4 @@
-# ky-038
+# ky-016
 
 ## Code
 ```python
@@ -24,4 +24,4 @@ while True:
 ```
 ## Result
 
- ![](https://media2.giphy.com/media/HBlRqzdcdyYIewmyyV/giphy.gif?cid=790b7611792555742318fa43495715770cba7feb8fb2264c&rid=giphy.gif&ct=g)
+ ![](https://imgur.com/a/orFzJ0h)
