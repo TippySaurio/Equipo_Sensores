@@ -13,9 +13,9 @@ pins = ADC(Pin(34))
 
 while True:
 	if pins.read_u16() =< 32000 :
-		print("Si hay campo electrico")
+		print("Si hay campo magnetico")
 	else:
-		print("No hay campo electrico")
+		print("No hay campo magnetico")
 	time.sleep(1)
     
 ```
